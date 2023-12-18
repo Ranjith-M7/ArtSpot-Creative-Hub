@@ -4,7 +4,7 @@ Welcome to my Simple Art Showcase Page project! This landing page is designed to
 ## Features
 - Hero section introducing the theme.
 - Six art images for visual appeal.
-- Section highlighting seven different art forms: cinema, music, architecture, painting, and more.
+- Section highlighting seven different art forms: cinema, music, architecture, painting, theatre and more.
 - Responsive design for optimal viewing on different devices.
 
 ## Technologies Used
