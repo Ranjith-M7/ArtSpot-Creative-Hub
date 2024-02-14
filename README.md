@@ -10,3 +10,4 @@ Welcome to my Simple Art Showcase Page project! This landing page is designed to
 ## Technologies Used
 - HTML5
 - CSS3
+- JavaScript
