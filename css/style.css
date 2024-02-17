@@ -153,17 +153,11 @@ img {
   object-fit: cover;
 }
 @media (max-width: 425px) {
-  .content-section {
-    min-width: 70%;
-    margin-bottom: 2rem;
-  }
   .main-heading {
     font-size: 2rem;
   }
   .primary-heading {
     font-size: 1rem;
-    margin-top: 3rem;
-    line-height: 35px;
   }
 }
 
@@ -234,9 +228,13 @@ footer {
   background: rgb(144, 195, 200);
   color: #fff;
 }
+.logo {
+  margin: 2rem 0;
+}
 footer .logo h1 {
   font-size: 4rem;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 footer .logo p {
   max-width: 400px;
@@ -248,14 +246,23 @@ footer .about-company-section {
   align-items: center;
 }
 footer .about-company-section .about-company {
-  margin: 20px 20px 0 20px;
+  margin: 1rem;
 }
 footer .about-company-section .about-company h1 {
-  margin-bottom: 50px;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 footer .about-company-section .about-company p {
   margin-bottom: 20px;
+}
+@media (max-width: 425px) {
+  footer .logo h1 {
+    font-size: 2rem;
+  }
+  footer .about-company-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /*Footer Scetion End*/
 
