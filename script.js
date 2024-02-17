@@ -1,5 +1,5 @@
 const countDown = () => {
-  const countDate = new Date("Feb 14,2024 15:30:02").getTime();
+  const countDate = new Date("May 14,2024 15:30:02").getTime();
   const now = new Date().getTime();
   const gap = countDate - now;
 
@@ -26,3 +26,15 @@ const countDown = () => {
   }
 };
 const interval = setInterval(countDown, 1000);
+
+// Call the countdown function when DOM content is loaded
+document.addEventListener("DOMContentLoaded", countDown);
+
+// Smooth scrolling for navigation links
+document.querySelectorAll("nav ul span li a").forEach((anchor) => {
+  anchor.addEventListener("click", function (event) {
+    event.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    target.scrollIntoView({ behavior: "smooth" });
+  });
+});
