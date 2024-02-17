@@ -236,9 +236,6 @@ footer .logo h1 {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-footer .logo p {
-  max-width: 400px;
-}
 footer .about-company-section {
   display: flex;
   flex-wrap: wrap;
@@ -260,7 +257,6 @@ footer .about-company-section .about-company p {
     font-size: 2rem;
   }
   footer .about-company-section {
-    display: flex;
     flex-direction: column;
   }
 }
