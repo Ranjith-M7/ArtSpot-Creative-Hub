@@ -129,7 +129,7 @@ header {
 .primary-heading {
   width: 80%;
   font-size: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   line-height: 35px;
 }
 .bg-gray {
@@ -236,11 +236,15 @@ footer .logo h1 {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+.logo p {
+  width: 300px;
+}
 footer .about-company-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 footer .about-company-section .about-company {
   margin: 1rem;
