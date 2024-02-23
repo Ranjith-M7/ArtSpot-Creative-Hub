@@ -1,5 +1,5 @@
 # ArtSpot: Your Destination for Creativity
-Welcome to my Simple Art Showcase Page project! This landing page is designed to showcase various art forms in a clean and minimalistic layout.
+Welcome to my Simple Art Showcase Page project! This landing page is designed to showcase various art forms in a clean and minimalistic layout using html,css and js.
 
 ## Features
 - Hero section introducing the theme.
