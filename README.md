@@ -1,4 +1,4 @@
-# ArtSpot: Your Destination for Creativity
+# ArtSpot: Creative Hub
 Welcome to my Simple Art Showcase Page project! This landing page is designed to showcase various art forms in a clean and minimalistic layout using html,css and js.
 
 ## Features
